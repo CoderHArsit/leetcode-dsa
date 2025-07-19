@@ -4,6 +4,8 @@
 
 // topic => Graph, DFS, DP, Bitmask
 
+link = https://leetcode.com/problems/longest-palindromic-path-in-graph/description/
+
 class Solution {
 public:
     // main point we are doing in this solution is either we are taking one mid
