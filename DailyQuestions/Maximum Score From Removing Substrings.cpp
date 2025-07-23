@@ -86,3 +86,24 @@ public:
 | 10        | b    | `c d b c b a b`           | 7          | No               | keep      | 0      |
 
 
+
+//Similar to above question is this simple question based on same process and intuition
+
+
+27. Remove Element
+class Solution {
+public:
+    int removeElement(vector<int>& nums, int val) {
+        int write=0,read=0,count =0;
+  
+        while(read<nums.size()){
+            if(nums[read] != val){
+                nums[write] = nums[read];
+                read++;count++;write++;
+            }else{
+                read++;
+            }
+        }
+        return count;
+    }
+};
